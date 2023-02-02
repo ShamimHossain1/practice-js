@@ -2,13 +2,13 @@ const paragraph = "Autism spectrum disorder (ASD) is a developmental, disability
  // split
 
 var parts = paragraph.split(" ");
-console.log(parts);
+// console.log(parts);
 
 var commma = paragraph.split(",");
-console.log(commma);
+// console.log(commma);
 
 var chars = paragraph.split("");
-console.log(chars);
+// console.log(chars);
 
 
 // slice
@@ -16,7 +16,24 @@ console.log(chars);
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 const partial = numbers.slice(3, 7);
-console.log(partial);
+// console.log(partial);
 
 const partial2 = paragraph.substring(4, 30);
-console.log(partial2);
+// console.log(partial2);
+
+
+
+var str1= 'shamim';
+var str2= 'hossain';
+// console.log(str1.concat(' ', str2));
+
+
+var lol = [  '(ASD)',          'is',            'a',
+'developmental,', 'disability',    'caused',
+'by',             'differences',   'in',
+'the',            'brain,',        'People',
+'with',           'ASD',           'often'
+]
+
+// console.log(lol.join('| '));
+
